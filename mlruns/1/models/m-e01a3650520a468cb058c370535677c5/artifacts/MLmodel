@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/PRAKHAR SINGH/OneDrive/Desktop/emi_predict/mlruns/1/models/m-e01a3650520a468cb058c370535677c5/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.15.2
+model_id: m-e01a3650520a468cb058c370535677c5
+model_size_bytes: 926780
+model_uuid: m-e01a3650520a468cb058c370535677c5
+prompts: null
+run_id: 57a48fbce52641b4a7ac5542df1671e2
+utc_time_created: '2026-09-05 16:26:25.447643'
